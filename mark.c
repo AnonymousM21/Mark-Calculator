@@ -18,7 +18,7 @@ int main(void) {
             for(unsigned int j = 0; j < strlen(c); j++) {
                 if(isdigit(c[j]) != 0) toInt = atoi(c);
                 else {
-                    toInt = atoi(c) * 0;
+                    toInt = 0;
                     break;
                 }
             }
